@@ -6,15 +6,15 @@ This repository contains my personal implementations of fundamental machine lear
 
 ```
 ML/
-├── Classification.py      # Logistic regression implementation
+├── LogisticRegression.py      # Logistic regression implementation
 ├── LinearRegression.py    # Linear regression implementation
 ├── comFunc.py            # Common utility functions
+├── .mplstyle             # Plotting profile
 ├── requirements.txt      # Python dependencies
 ├── CL_training1.txt      # Classification dataset 1
 ├── CL_training2.txt      # Classification dataset 2
 ├── LR_trainingData.txt   # Linear regression training data
-├── LR_testData.txt       # Linear regression test data
-└── venv_ML/              # Virtual environment
+└── LR_testData.txt       # Linear regression test data
 ```
 
 ## 🚀 Features
@@ -78,7 +78,7 @@ python LinearRegression.py
 
 ### Logistic Regression
 ```bash
-python Classification.py
+python LogisticRegression.py
 ```
 
 Both scripts will:
@@ -158,4 +158,4 @@ This implementation is based on fundamental machine learning concepts from:
 
 ---
 
-**Note**: This repository is for educational purposes and represents my learning progress in machine learning fundamentals.
+**Note**: This repo is for learning purposes and tracks my ML progress.
